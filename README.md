@@ -11,7 +11,7 @@ void setup() {
   BT.begin(9600);
 
   Serial.println("Bluetooth LED Control Ready");
-}
+
 
 void loop() {
   if (BT.available()) {
